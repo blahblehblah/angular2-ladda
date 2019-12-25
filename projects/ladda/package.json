@@ -1,6 +1,6 @@
 {
-  "name": "angular2-ladda",
-  "version": "2.0.2",
+  "name": "angular8-ladda",
+  "version": "3.0.0",
   "description": "Angular Ladda module",
   "keywords": [
     "angular",
@@ -19,7 +19,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/moff/angular2-ladda.git"
+    "url": "https://github.com/blahblehblah/angular8-ladda"
   },
   "license": "MIT",
   "peerDependencies": {
