@@ -53,12 +53,12 @@ export class LaddaDirective implements OnInit, OnDestroy, OnChanges {
 
     ngOnInit() {
        if (isPlatformBrowser(this.platformId)) {
-        this.ladda = createLadda(this.el);	        this.ladda = createLadda(this.el);
+        this.ladda = createLadda(this.el);	   
 
 
         // if the initial loading value isn't false, a timeout of 0 ms	        // if the initial loading value isn't false, a timeout of 0 ms
         // is necessary for the calculated spinner size to be correct.	        // is necessary for the calculated spinner size to be correct.
-        setTimeout(() => { this.updateLadda(false); }, 0);	        setTimeout(() => { this.updateLadda(false); }, 0);
+       setTimeout(() => { this.updateLadda(false); }, 0);
       }
     }
 
