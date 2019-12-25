@@ -1,6 +1,6 @@
 import { Directive, ElementRef, Input, OnInit, OnDestroy, OnChanges, SimpleChanges, Optional, Inject, PLATFORM_ID } from '@angular/core';
-import {LaddaConfig, LaddaConfigArgs, configAttributes} from './ladda-config';	import {LaddaConfig, LaddaConfigArgs, configAttributes} from './ladda-config';
-import {create as createLadda, LaddaButton} from 'ladda';	import {create as createLadda, LaddaButton} from 'ladda';
+import {LaddaConfig, LaddaConfigArgs, configAttributes} from './ladda-config';
+import {create as createLadda, LaddaButton} from 'ladda';
 import { isPlatformBrowser } from '@angular/common';
 export type laddaValue = boolean | number | undefined | null;
 
