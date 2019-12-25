@@ -2,8 +2,8 @@
   "name": "ladda-8-app",
   "version": "0.1.0",
   "precommit": [
-     "build"
-   ],
+    "build"
+  ],
   "private": true,
   "scripts": {
     "start": "ng serve",
@@ -16,6 +16,9 @@
   "dependencies": {
     "ladda": "^2.0.1",
     "tslib": "^1.9.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@blahblehblah"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.803.17",
